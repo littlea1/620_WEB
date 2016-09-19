@@ -1,0 +1,26 @@
+---
+title: "network_diameter_calculation"
+author: "CUNY"
+date: "September 18, 2016"
+output: html_document
+---
+
+```{r}
+require(igraph)
+edgeFile <- 'http://tinyurl.com/j535z7z'
+bsk<-read.table("http://tinyurl.com/j535z7z", sep=' ', header=F)#specify the path, separator(tab, comma, ...), decimal point symbol, etc.
+
+# Transform the table into the required graph format:
+bsk.network<-graph.data.frame(bsk, directed=F) #the 'directed' attribute specifies whether the edges are directed
+
+V(bsk.network) #prints the list of vertices 
+E(bsk.network) #prints the list of edges 
+degree(bsk.network) #print the number of edges per vertex 
+plot(bsk.network)
+```
+
+The diameter d of a graph is defined as the maximum eccentricity of any vertex in the graph. This means that the diameter is the length of the shortest path between the most distanced nodes. To determine the diameter of a graph, first find the shortest path between each pair of vertices. The greatest length of any of these paths is the diameter of the graph. 
+
+```{r}
+diameter(bsk.network)
+```
