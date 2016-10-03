@@ -1,0 +1,475 @@
+nodedef>name VARCHAR,label VARCHAR
+travel/mexico,Mexico holidays
+travel/bars,Bars and clubs
+environment/biodiversity,Biodiversity
+lifeandstyle/fitness,Fitness
+culture/culture,Culture
+lifeandstyle/wine,Wine
+world/india,India
+travel/wine-holidays,Wine holidays
+australia-news/australian-politics,Australian politics
+travel/restaurants,Restaurants
+world/serbia,Serbia
+world/hurricanes,Hurricanes
+environment/marine-life,Marine life
+books/autobiography-and-memoir,Autobiography and memoir
+fashion/fashion,Fashion
+culture/zombies,Zombies
+australia-news/australia-news,Australia news
+world/cuba,Cuba
+australia-news/malcolm-turnbull,Malcolm Turnbull
+tv-and-radio/episode-recaps,Episode recaps
+travel/cuba,Cuba holidays
+film/jared-leto,Jared Leto
+environment/rivers,Rivers
+travel/mexicocity,Mexico City holidays
+football/football,Football
+travel/southamerica,South America holidays
+australia-news/australian-greens,Australian Greens
+travel/travel,Travel
+environment/wildlife,Wildlife
+film/clueless,Clueless
+tv-and-radio/tv-and-radio,Television & radio
+lifeandstyle/mexican-food-and-drink,Mexican food and drink
+world/south-and-central-asia,South and Central Asia
+culture/television,Television
+environment/conservation,Conservation
+lifeandstyle/lifeandstyle,Life and style
+lifeandstyle/swimming,Swimming
+world/hungary,Hungary
+environment/farming,Farming
+world/international-land-deals,International land deals
+world/slovenia,Slovenia
+us-news/us-foreign-policy,US foreign policy
+global-development/natural-resources-and-development,Natural resources and development
+world/croatia,Croatia
+australia-news/northern-territory,Northern Territory
+sport/surfing,Surfing
+us-news/us-news,US news
+global-development-professionals-network/live-chats,Live Q&As
+global-development/access-to-water,Access to water
+world/natural-disasters,Natural disasters and extreme weather
+environment/water,Water
+travel/amazon,Amazon holidays
+travel/festivals,Festivals
+travel/hotels,Hotels
+global-development/global-development,Global development
+travel/swimming-holidays,Swimming holidays
+australia-news/indigenous-australians,Indigenous Australians
+global-development-professionals-network/global-development-professionals-network,Global development professionals network
+travel/diving,Diving holidays
+books/books,Books
+travel/top10,Top 10s
+world/migration,Migration
+music/folk,Folk music
+environment/environment,Environment
+travel/europe,Europe holidays
+society/children,Children
+environment/land-rights,Land rights
+tv-and-radio/fear-the-walking-dead,Fear the Walking Dead
+australia-news/queensland,Queensland
+travel/northandcentralamerica,North and Central America holidays
+tv-and-radio/the-walking-dead,The Walking Dead
+australia-news/australian-budget-2016,Australian budget 2016
+sport/sport,Sport
+world/unesco,Unesco
+world/world,World news
+tv-and-radio/us-television,US television
+world/austria,Austria
+travel/healthandfitness,Health and fitness holidays
+environment/illegal-wildlife-trade,Illegal wildlife trade
+lifeandstyle/family,Family
+lifeandstyle/food-and-drink,Food & drink
+lifeandstyle/parents-and-parenting,Parents and parenting
+football/tottenham-hotspur,Tottenham Hotspur
+travel/travelfoodanddrink,Food and drink
+world/americas,Americas
+environment/pollution,Pollution
+world/europe-news,Europe
+environment/oceans,Oceans
+travel/adventure,Adventure travel
+world/mexico,Mexico
+music/music,Music
+edgedef>from VARCHAR,to VARCHAR
+travel/mexico,travel/festivals
+travel/mexico,travel/adventure
+travel/mexico,travel/travelfoodanddrink
+travel/mexico,travel/northandcentralamerica
+travel/mexico,travel/travel
+travel/festivals,travel/adventure
+travel/festivals,travel/travelfoodanddrink
+travel/festivals,travel/northandcentralamerica
+travel/festivals,travel/travel
+travel/adventure,travel/travelfoodanddrink
+travel/adventure,travel/northandcentralamerica
+travel/adventure,travel/travel
+travel/travelfoodanddrink,travel/northandcentralamerica
+travel/travelfoodanddrink,travel/travel
+travel/northandcentralamerica,travel/travel
+world/mexico,environment/farming
+world/mexico,world/americas
+world/mexico,world/world
+environment/farming,world/americas
+environment/farming,world/world
+world/americas,world/world
+fashion/fashion,lifeandstyle/lifeandstyle
+fashion/fashion,film/jared-leto
+fashion/fashion,film/clueless
+lifeandstyle/lifeandstyle,film/jared-leto
+lifeandstyle/lifeandstyle,film/clueless
+film/jared-leto,film/clueless
+travel/swimming-holidays,travel/healthandfitness
+travel/swimming-holidays,travel/top10
+travel/swimming-holidays,travel/europe
+travel/swimming-holidays,lifeandstyle/swimming
+travel/swimming-holidays,travel/travel
+travel/swimming-holidays,lifeandstyle/fitness
+travel/swimming-holidays,lifeandstyle/lifeandstyle
+travel/healthandfitness,travel/top10
+travel/healthandfitness,travel/europe
+travel/healthandfitness,lifeandstyle/swimming
+travel/healthandfitness,travel/travel
+travel/healthandfitness,lifeandstyle/fitness
+travel/healthandfitness,lifeandstyle/lifeandstyle
+travel/top10,travel/europe
+travel/top10,lifeandstyle/swimming
+travel/top10,travel/travel
+travel/top10,lifeandstyle/fitness
+travel/top10,lifeandstyle/lifeandstyle
+travel/europe,lifeandstyle/swimming
+travel/europe,travel/travel
+travel/europe,lifeandstyle/fitness
+travel/europe,lifeandstyle/lifeandstyle
+lifeandstyle/swimming,travel/travel
+lifeandstyle/swimming,lifeandstyle/fitness
+lifeandstyle/swimming,lifeandstyle/lifeandstyle
+travel/travel,lifeandstyle/fitness
+travel/travel,lifeandstyle/lifeandstyle
+lifeandstyle/fitness,lifeandstyle/lifeandstyle
+world/hurricanes,world/natural-disasters
+world/hurricanes,sport/surfing
+world/hurricanes,us-news/us-news
+world/hurricanes,world/world
+world/hurricanes,world/mexico
+world/natural-disasters,sport/surfing
+world/natural-disasters,us-news/us-news
+world/natural-disasters,world/world
+world/natural-disasters,world/mexico
+sport/surfing,us-news/us-news
+sport/surfing,world/world
+sport/surfing,world/mexico
+us-news/us-news,world/world
+us-news/us-news,world/mexico
+world/world,world/mexico
+world/mexico,world/americas
+travel/mexico,travel/wine-holidays
+travel/mexico,travel/travelfoodanddrink
+travel/mexico,travel/hotels
+travel/mexico,travel/restaurants
+travel/mexico,lifeandstyle/wine
+travel/mexico,lifeandstyle/mexican-food-and-drink
+travel/mexico,lifeandstyle/food-and-drink
+travel/wine-holidays,travel/travelfoodanddrink
+travel/wine-holidays,travel/hotels
+travel/wine-holidays,travel/restaurants
+travel/wine-holidays,lifeandstyle/wine
+travel/wine-holidays,lifeandstyle/mexican-food-and-drink
+travel/wine-holidays,lifeandstyle/food-and-drink
+travel/travelfoodanddrink,travel/hotels
+travel/travelfoodanddrink,travel/restaurants
+travel/travelfoodanddrink,lifeandstyle/wine
+travel/travelfoodanddrink,lifeandstyle/mexican-food-and-drink
+travel/travelfoodanddrink,lifeandstyle/food-and-drink
+travel/hotels,travel/restaurants
+travel/hotels,lifeandstyle/wine
+travel/hotels,lifeandstyle/mexican-food-and-drink
+travel/hotels,lifeandstyle/food-and-drink
+travel/restaurants,lifeandstyle/wine
+travel/restaurants,lifeandstyle/mexican-food-and-drink
+travel/restaurants,lifeandstyle/food-and-drink
+lifeandstyle/wine,lifeandstyle/mexican-food-and-drink
+lifeandstyle/wine,lifeandstyle/food-and-drink
+lifeandstyle/mexican-food-and-drink,lifeandstyle/food-and-drink
+environment/land-rights,world/international-land-deals
+environment/land-rights,global-development/natural-resources-and-development
+environment/land-rights,global-development/global-development
+environment/land-rights,world/world
+world/international-land-deals,global-development/natural-resources-and-development
+world/international-land-deals,global-development/global-development
+world/international-land-deals,world/world
+global-development/natural-resources-and-development,global-development/global-development
+global-development/natural-resources-and-development,world/world
+global-development/global-development,world/world
+music/folk,music/music
+music/folk,culture/culture
+music/music,culture/culture
+australia-news/indigenous-australians,australia-news/australian-greens
+australia-news/indigenous-australians,australia-news/australian-politics
+australia-news/indigenous-australians,australia-news/australia-news
+australia-news/indigenous-australians,australia-news/northern-territory
+australia-news/indigenous-australians,australia-news/queensland
+australia-news/indigenous-australians,australia-news/malcolm-turnbull
+australia-news/indigenous-australians,australia-news/australian-budget-2016
+australia-news/australian-greens,australia-news/australian-politics
+australia-news/australian-greens,australia-news/australia-news
+australia-news/australian-greens,australia-news/northern-territory
+australia-news/australian-greens,australia-news/queensland
+australia-news/australian-greens,australia-news/malcolm-turnbull
+australia-news/australian-greens,australia-news/australian-budget-2016
+australia-news/australian-politics,australia-news/australia-news
+australia-news/australian-politics,australia-news/northern-territory
+australia-news/australian-politics,australia-news/queensland
+australia-news/australian-politics,australia-news/malcolm-turnbull
+australia-news/australian-politics,australia-news/australian-budget-2016
+australia-news/australia-news,australia-news/northern-territory
+australia-news/australia-news,australia-news/queensland
+australia-news/australia-news,australia-news/malcolm-turnbull
+australia-news/australia-news,australia-news/australian-budget-2016
+australia-news/northern-territory,australia-news/queensland
+australia-news/northern-territory,australia-news/malcolm-turnbull
+australia-news/northern-territory,australia-news/australian-budget-2016
+australia-news/queensland,australia-news/malcolm-turnbull
+australia-news/queensland,australia-news/australian-budget-2016
+australia-news/malcolm-turnbull,australia-news/australian-budget-2016
+tv-and-radio/fear-the-walking-dead,culture/zombies
+tv-and-radio/fear-the-walking-dead,culture/television
+tv-and-radio/fear-the-walking-dead,culture/culture
+tv-and-radio/fear-the-walking-dead,tv-and-radio/tv-and-radio
+tv-and-radio/fear-the-walking-dead,tv-and-radio/us-television
+tv-and-radio/fear-the-walking-dead,tv-and-radio/the-walking-dead
+culture/zombies,culture/television
+culture/zombies,culture/culture
+culture/zombies,tv-and-radio/tv-and-radio
+culture/zombies,tv-and-radio/us-television
+culture/zombies,tv-and-radio/the-walking-dead
+culture/television,culture/culture
+culture/television,tv-and-radio/tv-and-radio
+culture/television,tv-and-radio/us-television
+culture/television,tv-and-radio/the-walking-dead
+culture/culture,tv-and-radio/tv-and-radio
+culture/culture,tv-and-radio/us-television
+culture/culture,tv-and-radio/the-walking-dead
+tv-and-radio/tv-and-radio,tv-and-radio/us-television
+tv-and-radio/tv-and-radio,tv-and-radio/the-walking-dead
+tv-and-radio/us-television,tv-and-radio/the-walking-dead
+environment/marine-life,environment/wildlife
+environment/marine-life,environment/environment
+environment/marine-life,world/mexico
+environment/marine-life,environment/illegal-wildlife-trade
+environment/wildlife,environment/environment
+environment/wildlife,world/mexico
+environment/wildlife,environment/illegal-wildlife-trade
+environment/environment,world/mexico
+environment/environment,environment/illegal-wildlife-trade
+world/mexico,environment/illegal-wildlife-trade
+world/hungary,world/europe-news
+world/hungary,world/world
+world/hungary,world/croatia
+world/hungary,world/austria
+world/hungary,world/slovenia
+world/hungary,world/serbia
+world/hungary,environment/biodiversity
+world/hungary,environment/wildlife
+world/hungary,environment/environment
+world/hungary,environment/conservation
+world/hungary,world/unesco
+world/europe-news,world/world
+world/europe-news,world/croatia
+world/europe-news,world/austria
+world/europe-news,world/slovenia
+world/europe-news,world/serbia
+world/europe-news,environment/biodiversity
+world/europe-news,environment/wildlife
+world/europe-news,environment/environment
+world/europe-news,environment/conservation
+world/europe-news,world/unesco
+world/world,world/croatia
+world/world,world/austria
+world/world,world/slovenia
+world/world,world/serbia
+world/world,environment/biodiversity
+world/world,environment/wildlife
+world/world,environment/environment
+world/world,environment/conservation
+world/world,world/unesco
+world/croatia,world/austria
+world/croatia,world/slovenia
+world/croatia,world/serbia
+world/croatia,environment/biodiversity
+world/croatia,environment/wildlife
+world/croatia,environment/environment
+world/croatia,environment/conservation
+world/croatia,world/unesco
+world/austria,world/slovenia
+world/austria,world/serbia
+world/austria,environment/biodiversity
+world/austria,environment/wildlife
+world/austria,environment/environment
+world/austria,environment/conservation
+world/austria,world/unesco
+world/slovenia,world/serbia
+world/slovenia,environment/biodiversity
+world/slovenia,environment/wildlife
+world/slovenia,environment/environment
+world/slovenia,environment/conservation
+world/slovenia,world/unesco
+world/serbia,environment/biodiversity
+world/serbia,environment/wildlife
+world/serbia,environment/environment
+world/serbia,environment/conservation
+world/serbia,world/unesco
+environment/biodiversity,environment/wildlife
+environment/biodiversity,environment/environment
+environment/biodiversity,environment/conservation
+environment/biodiversity,world/unesco
+environment/wildlife,environment/environment
+environment/wildlife,environment/conservation
+environment/wildlife,world/unesco
+environment/environment,environment/conservation
+environment/environment,world/unesco
+environment/conservation,world/unesco
+fashion/fashion,lifeandstyle/lifeandstyle
+fashion/fashion,football/tottenham-hotspur
+fashion/fashion,football/football
+fashion/fashion,sport/sport
+lifeandstyle/lifeandstyle,football/tottenham-hotspur
+lifeandstyle/lifeandstyle,football/football
+lifeandstyle/lifeandstyle,sport/sport
+football/tottenham-hotspur,football/football
+football/tottenham-hotspur,sport/sport
+football/football,sport/sport
+world/mexico,world/americas
+world/mexico,world/world
+world/americas,world/world
+books/autobiography-and-memoir,books/books
+books/autobiography-and-memoir,culture/culture
+books/books,culture/culture
+travel/northandcentralamerica,travel/mexico
+travel/northandcentralamerica,travel/travel
+travel/northandcentralamerica,travel/adventure
+travel/northandcentralamerica,travel/diving
+travel/northandcentralamerica,travel/amazon
+travel/northandcentralamerica,travel/southamerica
+travel/northandcentralamerica,environment/oceans
+travel/northandcentralamerica,environment/environment
+travel/mexico,travel/travel
+travel/mexico,travel/adventure
+travel/mexico,travel/diving
+travel/mexico,travel/amazon
+travel/mexico,travel/southamerica
+travel/mexico,environment/oceans
+travel/mexico,environment/environment
+travel/travel,travel/adventure
+travel/travel,travel/diving
+travel/travel,travel/amazon
+travel/travel,travel/southamerica
+travel/travel,environment/oceans
+travel/travel,environment/environment
+travel/adventure,travel/diving
+travel/adventure,travel/amazon
+travel/adventure,travel/southamerica
+travel/adventure,environment/oceans
+travel/adventure,environment/environment
+travel/diving,travel/amazon
+travel/diving,travel/southamerica
+travel/diving,environment/oceans
+travel/diving,environment/environment
+travel/amazon,travel/southamerica
+travel/amazon,environment/oceans
+travel/amazon,environment/environment
+travel/southamerica,environment/oceans
+travel/southamerica,environment/environment
+environment/oceans,environment/environment
+travel/mexicocity,travel/mexico
+travel/mexicocity,travel/restaurants
+travel/mexicocity,travel/bars
+travel/mexicocity,travel/travel
+travel/mexico,travel/restaurants
+travel/mexico,travel/bars
+travel/mexico,travel/travel
+travel/restaurants,travel/bars
+travel/restaurants,travel/travel
+travel/bars,travel/travel
+world/migration,us-news/us-news
+world/migration,world/india
+world/migration,society/children
+world/migration,world/south-and-central-asia
+world/migration,world/world
+us-news/us-news,world/india
+us-news/us-news,society/children
+us-news/us-news,world/south-and-central-asia
+us-news/us-news,world/world
+world/india,society/children
+world/india,world/south-and-central-asia
+world/india,world/world
+society/children,world/south-and-central-asia
+society/children,world/world
+world/south-and-central-asia,world/world
+global-development-professionals-network/live-chats,global-development-professionals-network/global-development-professionals-network
+global-development-professionals-network/live-chats,environment/water
+global-development-professionals-network/live-chats,global-development/access-to-water
+global-development-professionals-network/live-chats,environment/pollution
+global-development-professionals-network/live-chats,world/americas
+global-development-professionals-network/live-chats,environment/rivers
+global-development-professionals-network/live-chats,environment/oceans
+global-development-professionals-network/global-development-professionals-network,environment/water
+global-development-professionals-network/global-development-professionals-network,global-development/access-to-water
+global-development-professionals-network/global-development-professionals-network,environment/pollution
+global-development-professionals-network/global-development-professionals-network,world/americas
+global-development-professionals-network/global-development-professionals-network,environment/rivers
+global-development-professionals-network/global-development-professionals-network,environment/oceans
+environment/water,global-development/access-to-water
+environment/water,environment/pollution
+environment/water,world/americas
+environment/water,environment/rivers
+environment/water,environment/oceans
+global-development/access-to-water,environment/pollution
+global-development/access-to-water,world/americas
+global-development/access-to-water,environment/rivers
+global-development/access-to-water,environment/oceans
+environment/pollution,world/americas
+environment/pollution,environment/rivers
+environment/pollution,environment/oceans
+world/americas,environment/rivers
+world/americas,environment/oceans
+environment/rivers,environment/oceans
+culture/television,tv-and-radio/us-television
+culture/television,tv-and-radio/tv-and-radio
+culture/television,tv-and-radio/episode-recaps
+tv-and-radio/us-television,tv-and-radio/tv-and-radio
+tv-and-radio/us-television,tv-and-radio/episode-recaps
+tv-and-radio/tv-and-radio,tv-and-radio/episode-recaps
+world/cuba,us-news/us-foreign-policy
+world/cuba,us-news/us-news
+world/cuba,travel/cuba
+world/cuba,world/americas
+world/cuba,travel/northandcentralamerica
+world/cuba,travel/travel
+world/cuba,world/world
+us-news/us-foreign-policy,us-news/us-news
+us-news/us-foreign-policy,travel/cuba
+us-news/us-foreign-policy,world/americas
+us-news/us-foreign-policy,travel/northandcentralamerica
+us-news/us-foreign-policy,travel/travel
+us-news/us-foreign-policy,world/world
+us-news/us-news,travel/cuba
+us-news/us-news,world/americas
+us-news/us-news,travel/northandcentralamerica
+us-news/us-news,travel/travel
+us-news/us-news,world/world
+travel/cuba,world/americas
+travel/cuba,travel/northandcentralamerica
+travel/cuba,travel/travel
+travel/cuba,world/world
+world/americas,travel/northandcentralamerica
+world/americas,travel/travel
+world/americas,world/world
+travel/northandcentralamerica,travel/travel
+travel/northandcentralamerica,world/world
+travel/travel,world/world
+lifeandstyle/family,lifeandstyle/lifeandstyle
+lifeandstyle/family,lifeandstyle/parents-and-parenting
+lifeandstyle/family,books/books
+lifeandstyle/lifeandstyle,lifeandstyle/parents-and-parenting
+lifeandstyle/lifeandstyle,books/books
+lifeandstyle/parents-and-parenting,books/books
